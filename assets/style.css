@@ -46,6 +46,9 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* 关闭 fi/ffi/fl 连字：避免衬线字体把 i 的点和前面的 f 合并，看起来像掉点 */
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "clig" 0;
 }
 
 .wrap {

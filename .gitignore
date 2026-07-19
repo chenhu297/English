@@ -2,3 +2,7 @@
 notes/grammar/lecture/雅思基础语法配套课程讲义.pdf
 notes/grammar/lecture/讲义全文.txt
 notes/grammar/lecture/页码索引.md
+
+# 系统文件与讲义素材（不入库）
+.DS_Store
+notes/grammar/lecture/

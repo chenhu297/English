@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="../../assets/style.css">
 <style>
   .legend { display:flex; flex-wrap:wrap; gap:14px; font-size:14px; margin:8px 0 0; }
+  .legend span b { font-weight:700; }
+  /* 分类树 */
   .tree { font-family: var(--serif); line-height: 1.9; font-size: 16px;
           background: var(--surface); border:1px solid var(--line);
           border-radius: var(--radius-sm); padding: 18px 22px; margin: 16px 0;
@@ -17,6 +19,7 @@
 </style>
 </head>
 <body>
+
 <div class="topnav">
   <a href="../../index.html">🏠 基地首页</a>
   <span class="sep">/</span>
@@ -24,17 +27,20 @@
   <span class="sep">/</span>
   <span>谓语动词的分类</span>
 </div>
+
 <div class="wrap">
+
   <h1>谓语动词的分类</h1>
   <p class="subtitle">第一部分 · 如何表达一件事 &nbsp;|&nbsp; 田静 第一讲《简单句的核心构成》</p>
 
   <div class="callout info" style="margin-top:18px">
     <span class="label">这节解决什么</span>
-    <p style="margin-bottom:0">简单句的骨架就是 <b>主语 + 谓语</b>。而<b>谓语动词是哪一类</b>，直接决定了这句话是五种句型里的哪一种。所以田静第一讲从"动词分类"切入——<b>看懂动词，就看懂了句子骨架</b>。</p>
+    <p style="margin-bottom:0">简单句的骨架就是 <b>主语 + 谓语</b>。而<b>谓语动词是哪一类</b>，直接决定了这句话是五种句型里的哪一种。所以田静第一讲从"动词分类"切入——<b>看懂动词，就看懂了句子骨架</b>。五种基本句型也都在这一讲里（看动词怎么决定句型）。</p>
   </div>
 
   <div class="card">
     <p style="margin-top:0"><b>一句话抓本质：</b>由于<b>谓语动词的不同</b>，简单句可以再细分成五类。判断句型，先判断动词——它<b>有没有实义</b>、<b>能不能带宾语、带几个</b>。</p>
+    <p style="margin-bottom:6px;font-size:14px;color:var(--ink-soft)">下文例句按成分上色：</p>
     <div class="legend">
       <span><b class="s">主语 S</b></span>
       <span><b class="v">谓语 V（动词）</b></span>
@@ -43,6 +49,7 @@
     </div>
   </div>
 
+  <!-- 分类树 -->
   <h2><span class="num">1</span>谓语动词分类树</h2>
   <div class="tree">
 谓语动词<br>
@@ -54,10 +61,17 @@
 └─ <span class="b">无实义</span>（本身没意思，得靠后面补）<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└─ <span class="leaf">(连)系动词</span> ——→ <span class="pat">主 + 系 + 表（SVP）</span>
   </div>
+  <figcaption style="font-size:13px;color:var(--ink-faint);margin:-6px 0 8px;text-align:center">按田静课堂 PPT《谓语动词的分类》重绘</figcaption>
 
+  <div class="callout rule">
+    <span class="label">规则</span>
+    <p style="margin-bottom:0"><b>及物（vt.）</b>= 后面<b>必须</b>带宾语，动作才有承受对象；<b>不及物（vi.）</b>= 后面<b>不带</b>宾语，意思已完整（想接细节用状语）。<b>系动词</b>= 没有实义，必须接<b>表语</b>说明主语"是什么 / 怎么样"。</p>
+  </div>
+
+  <!-- 五种句型对照 -->
   <h2><span class="num">2</span>五类句型 · 一表对应</h2>
   <table>
-    <tr><th>动词性质</th><th>句型</th><th>结构</th><th>例句</th></tr>
+    <tr><th>动词性质</th><th>句型</th><th>结构</th><th>田静讲义例句</th></tr>
     <tr><td>不及物 vi.</td><td>主 + 谓</td><td>S + V</td><td>People live.</td></tr>
     <tr><td>及物 vt.</td><td>主 + 谓 + 宾</td><td>S + V + O</td><td>Now everyone uses them.</td></tr>
     <tr><td>及物 vt.</td><td>主 + 谓 + 双宾</td><td>S + V + O₁ + O₂</td><td>I bought you a present.</td></tr>
@@ -66,28 +80,32 @@
   </table>
 
   <h3>① 主 + 谓（不及物动词）</h3>
-  <div class="eg"><p class="en"><span class="s">People</span> <span class="v">live</span>.</p><p class="zh">人们生活着。</p></div>
-  <div class="eg"><p class="en"><span class="s">The meeting</span> <span class="v">started</span> on time.</p><p class="zh">会议准时开始。</p></div>
+  <div class="eg"><p class="en"><span class="s">People</span> <span class="v">live</span>.</p><p class="zh">人们生活着。（live 后面不需要宾语）</p></div>
+  <div class="eg"><p class="en"><span class="s">The meeting</span> <span class="v">started</span> on time.</p><p class="zh">会议准时开始。（on time 是状语，不是宾语）</p></div>
 
   <h3>② 主 + 谓 + 宾（及物动词）</h3>
-  <div class="eg"><p class="en"><span class="s">Now everyone</span> <span class="v">uses</span> <span class="o">them</span>.</p></div>
-  <div class="eg"><p class="en"><span class="s">We</span> <span class="v">finished</span> <span class="o">the report</span>.</p></div>
+  <div class="eg"><p class="en"><span class="s">Now everyone</span> <span class="v">uses</span> <span class="o">them</span>.</p><p class="zh">现在人人都用它们。（剑 6，Test 1）</p></div>
+  <div class="eg"><p class="en"><span class="s">We</span> <span class="v">finished</span> <span class="o">the report</span>.</p><p class="zh">我们完成了报告。（工作场景）</p></div>
 
-  <h3>③ 主 + 谓 + 双宾</h3>
-  <div class="eg"><p class="en"><span class="s">I</span> <span class="v">bought</span> <span class="o">you</span> <span class="o">a present</span>.</p></div>
+  <h3>③ 主 + 谓 + 双宾（给"谁" + "什么"）</h3>
+  <div class="eg"><p class="en"><span class="s">I</span> <span class="v">bought</span> <span class="o">you</span> <span class="o">a present</span>.</p><p class="zh">我给你买了份礼物。= I bought <b>a present for you</b>.</p></div>
+  <div class="eg"><p class="en"><span class="s">They</span> <span class="v">offered</span> <span class="o">me</span> <span class="o">a vacant post</span>.</p><p class="zh">他们给了我一个空缺职位。= They offered <b>a vacant post to me</b>.</p></div>
   <div class="callout tip">
     <span class="label">💡 变形</span>
-    <p style="margin-bottom:0">双宾常能改写成"直接宾语 + <b>to / for</b> + 人"：give / send / tell 多用 <b>to</b>；buy / make / get 多用 <b>for</b>。</p>
+    <p style="margin-bottom:0">双宾常能改写成"直接宾语 + <b>to / for</b> + 人"：give / send / tell / show / offer 多用 <b>to</b>；buy / make / get 多用 <b>for</b>。</p>
   </div>
 
-  <h3>④ 主 + 谓 + 宾 + 宾补</h3>
-  <div class="eg"><p class="en"><span class="s">I</span> <span class="v">find</span> <span class="o">Hong Kong</span> <span class="c">beautiful</span>.</p></div>
+  <h3>④ 主 + 谓 + 宾 + 宾补（再补充说明宾语）</h3>
+  <div class="eg"><p class="en"><span class="s">I</span> <span class="v">find</span> <span class="o">Hong Kong</span> <span class="c">beautiful</span>.</p><p class="zh">我觉得香港很美。（beautiful 补充说明 Hong Kong）</p></div>
+  <div class="eg"><p class="en"><span class="s">The delay</span> <span class="v">made</span> <span class="o">the client</span> <span class="c">unhappy</span>.</p><p class="zh">延期让客户不高兴。（工作场景）</p></div>
 
   <h3>⑤ 主 + 系 + 表（系动词）</h3>
-  <div class="eg"><p class="en"><span class="s">I</span> <span class="v">am</span> <span class="c">very happy</span>.</p></div>
-  <div class="eg"><p class="en"><span class="s">The plan</span> <span class="v">looks</span> <span class="c">solid</span>.</p></div>
+  <div class="eg"><p class="en"><span class="s">I</span> <span class="v">am</span> <span class="c">very happy</span>.</p><p class="zh">我很开心。（am 是系动词，happy 是表语）</p></div>
+  <div class="eg"><p class="en"><span class="s">The plan</span> <span class="v">looks</span> <span class="c">solid</span>.</p><p class="zh">这个方案看起来很扎实。（工作场景）</p></div>
 
+  <!-- 系动词补充 -->
   <h2><span class="num">3</span>重点补充 · 常用的 4 类系动词</h2>
+  <p style="color:var(--ink-soft);font-size:15px">系动词没实义，专门连接主语和表语。田静把它们归成 4 类——记住这 4 类，主系表句型就稳了。</p>
   <table>
     <tr><th>类别</th><th>常见词</th><th>含义</th><th>例</th></tr>
     <tr><td>① be 动词</td><td>am / is / are / was / were</td><td>单纯的"是"</td><td>She <b>is</b> our team lead.</td></tr>
@@ -97,32 +115,59 @@
   </table>
 
   <div class="callout warn">
-    <span class="label">⚠️ 高频错</span>
-    <p style="margin:2px 0 8px"><b>1. 及物动词漏宾语</b><br>✗ I'll send after lunch. → ✓ I'll send <b>it</b> after lunch.</p>
-    <p style="margin:8px 0"><b>2. 系动词后用副词</b><br>✗ I feel <s>badly</s>. → ✓ I feel <b>bad</b>.</p>
-    <p style="margin-bottom:0"><b>3. 把不及物动词当及物用</b><br>✗ We will arrive the office. → ✓ We will <b>arrive at</b> the office.</p>
+    <span class="label">⚠️ 中国学习者高频错</span>
+    <p style="margin:2px 0 8px"><b>1. 及物动词漏宾语</b><br>
+    ✗ I'll <s>send</s> after lunch. → ✓ I'll send <b>it</b> after lunch.</p>
+    <p style="margin:8px 0"><b>2. 系动词后用副词（应该用形容词）</b><br>
+    ✗ I feel <s>badly</s> about it. → ✓ I feel <b>bad</b> about it.<br>
+    ✗ The milk went <s>badly</s>. → ✓ The milk went <b>bad</b>.</p>
+    <p style="margin-bottom:0"><b>3. 把不及物动词当及物用</b><br>
+    ✗ We will <s>arrive the office</s> at 9. → ✓ We will <b>arrive at</b> the office at 9.（arrive 不及物，要加介词）</p>
   </div>
 
   <div class="callout tip">
     <span class="label">💡 田静的判断逻辑</span>
-    <p style="margin-bottom:0"><b>第一步</b>：有实义吗？没有 → 系动词 → <b>主系表</b>。<br>
-    <b>第二步</b>（有实义）：后面带宾语吗？不带 → <b>主谓</b>；带 → 看带几个 → <b>主谓宾 / 双宾 / 宾补</b>。</p>
+    <p style="margin-bottom:0">拿到一个动词，连问两步：<br>
+    <b>第一步</b>：有实义吗？没有 → 系动词 → <b>主系表</b>。<br>
+    <b>第二步</b>（有实义）：后面带宾语吗？不带 → <b>主谓</b>；带 → 看带几个 / 要不要补充 → <b>主谓宾 / 双宾 / 宾补</b>。</p>
   </div>
 
   <hr>
-  <h2>📝 自测</h2>
-  <details><summary>1. The system crashed this morning.</summary><div class="body"><p style="margin:8px 0 0"><b>主谓（SV）</b>。crash 是不及物动词。</p></div></details>
-  <details><summary>2. Could you send me the file?</summary><div class="body"><p style="margin:8px 0 0"><b>主谓双宾</b>。send 及物，me=给谁，the file=什么。</p></div></details>
-  <details><summary>3. The numbers look great this week.</summary><div class="body"><p style="margin:8px 0 0"><b>主系表</b>。look 是感官系动词，great 是表语。</p></div></details>
-  <details><summary>4. This update keeps our data safe.</summary><div class="body"><p style="margin:8px 0 0"><b>主谓宾补</b>。keep 及物，our data 是宾语，safe 是宾补。</p></div></details>
+
+  <!-- 自测 -->
+  <h2>📝 自测（先想再展开）</h2>
+  <p style="color:var(--ink-soft);font-size:15px">判断下列句子属于哪种句型、动词是哪一类：</p>
+
+  <details>
+    <summary>1. The system crashed this morning.</summary>
+    <div class="body"><p style="margin:8px 0 0"><b>主谓（SV）</b>。crash 是不及物动词，this morning 是状语。</p></div>
+  </details>
+  <details>
+    <summary>2. Could you send me the file?</summary>
+    <div class="body"><p style="margin:8px 0 0"><b>主谓双宾</b>。send 及物，me=给谁，the file=什么。= send <b>the file to me</b>。</p></div>
+  </details>
+  <details>
+    <summary>3. The numbers look great this week.</summary>
+    <div class="body"><p style="margin:8px 0 0"><b>主系表</b>。look 是感官系动词，great 是表语（形容词，不能用 greatly）。</p></div>
+  </details>
+  <details>
+    <summary>4. This update keeps our data safe.</summary>
+    <div class="body"><p style="margin:8px 0 0"><b>主谓宾补</b>。keep 及物，our data 是宾语，safe 是宾补（our data <i>is</i> safe 说得通）。</p></div>
+  </details>
 
   <div class="callout speak" style="margin-top:22px">
     <span class="label">🗣️ 立刻用出来</span>
-    <p style="margin-bottom:0">用你工作里的事，5 种句型各造 1 句说给我听。</p>
+    <p style="margin-bottom:0">用你工作里的事，5 种句型各造 1 句说给我听。特别练这两个你容易错的：<br>
+    · 用<b>双宾</b>说"我给某人发了什么"；<br>
+    · 用<b>系动词</b>说"某个方案/数据看起来怎么样"（记得用形容词）。我帮你纠错。</p>
   </div>
+
 </div>
+
 <div class="foot">
-  第一部分 · 谓语动词的分类 &nbsp;|&nbsp; 田静 第一讲<br>English Base
+  第一部分 · 谓语动词的分类 &nbsp;|&nbsp; 田静 第一讲《简单句的核心构成》<br>
+  English Base
 </div>
+
 </body>
 </html>
